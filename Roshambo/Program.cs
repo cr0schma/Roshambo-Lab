@@ -126,7 +126,7 @@ do
                     string answer = Console.ReadLine();
 
                     //determine to loop depending on user's answer
-                    if (answer == "y")
+                    if (answer.ToLower() == "y")
                     {
                         playagain = true;
                     }
